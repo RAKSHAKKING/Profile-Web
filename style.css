@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+}
+/* 
+nav .navBar{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    padding-right: 10px;
+
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    padding-right: 250px;
+
+}
+
+.navBar .menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5;
+    
+}
+.menu-class{
+    padding: 10px;
+    padding-left: 30px;
+} */
+
+header{
+    /* height: 100vh;
+    width: 100%; */
+    /* background: url("/Portfolio/files/Goku_Ui.jpg") no-repeat;
+    background-position: center; */
+}
+
+header nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* background: #8beaddb0;
+    border: 1px solid rgb(127, 79, 79);
+    border-radius: 85px; */
+}
+
+nav .navBar{
+    width: 90%;
+    height: 17vh;
+    /* background:aqua; */
+    margin: 10px auto 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navBar .logo{
+
+}
+
+.navBar .logo img{
+    height: 125px;
+    /* width: 100PX; */
+    object-fit: contain;
+    border: 2px solid black;
+    border-radius: 50%;
+
+
+    }
+
+.navBar ul{
+
+}
+
+.navBar .menu{
+    display: flex;
+    background-color: #76ead2bb;
+    padding: 15px 100px;
+    border: 2px solid black;
+    border-radius: 25px;
+    
+}
+
+.navBar .menu li{
+    list-style: none;
+    margin: 0 25px;
+}
+
+.menu li a{
+    font-size: 16px;
+    color: rgb(7, 9, 9);
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: rgb(135, 84, 84);
+}
+
+.navBar .search-bar{
+    position: relative;
+    height: 50px;
+    width: 250px;
+
+}
+
+.search-bar input[type="search"]{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    color: #2c3e50;
+    font-size: 18px;
+    outline: none;
+    border: 2px solid #2c3e50;
+    border-radius: 8px;
+    padding: 0 10px 0 40px;
+}
+
+.search-bar a{
+    position: absolute;
+    left: 9%;
+    top: 32%;
+    transform: translate(-50%);
+    font-size: 20px;
+    color:  #2c3e50;
+    padding: 0 5px 0 0;
+    border-right: 2px solid #2c3e50;
+}
+
+.portfolio{
+    background: url("/Portfolio/files/Black_water.jpg") no-repeat;
+    background-position: center;
+    /* width: 100%; */
+    height: 100vh;
+}
+
+.portfolio .intro{
+    position: absolute;
+    top: 40vh;
+    left: 15vh;
+    /* bottom: 5vh; */
+    font-size: 50px;
+    color: white;
+    font-family: ui-rounded;
+}
