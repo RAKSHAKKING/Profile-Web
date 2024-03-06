@@ -168,7 +168,7 @@ nav .navBar{
     height: 100vh;
 }
 
-.content .Para{
+.content .content-text{
     position: absolute;
     top: 40vh;
     left: 15vh;
@@ -212,6 +212,14 @@ nav .navBar{
 
 }
 
-.content .buttons button:hover{
+.content-text .buttons button:hover{
     transform: scale(0.98);
+}
+
+.content .content-text .media-btn{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 40px;
+    bottom: 40px;
 }
